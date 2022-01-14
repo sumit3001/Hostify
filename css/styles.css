@@ -38,6 +38,7 @@ h3 {
 
 h1 {
   font-size: 7rem;
+  line-height: 1.1;
 }
 
 h2 {
@@ -676,5 +677,32 @@ a {
 
   .nav__items {
     border: 0;
+  }
+}
+
+/* Hero(Banner) */
+.hero {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+
+.hero__tagline {
+  font-size: 2rem;
+  color: #b9cfc3;
+  letter-spacing: 1px;
+  margin: 2rem 0 5rem;
+}
+
+.hero__image {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 0;
+  }
+
+  .hero__content {
+    text-align: left;
+    align-self: center;
   }
 }
